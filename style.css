@@ -118,4 +118,56 @@ body {
 .option:hover {
   outline: 3px solid #44D2FF;
   transition: 1s;
+}
+
+@media (max-width: 376px) {
+  .center {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .header {
+    height: 735px;
+    background-image: url(img/headerback-mobile.jpg);
+  }
+  .header__block {
+    padding-top: 239px;
+    padding-bottom: 252px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 343px;
+  }
+  .heading {
+    width: 343px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+  }
+  .heading_s {
+    width: 343px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 36px;
+  }
+  .choice {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .option {
+    width: 343px;
+    padding-left: 15px;
+  }
+  .option1 {
+    background-image: url(img/option1-mobile.jpg);
+  }
+  .option2 {
+    background-image: url(img/option2-mobile.jpg);
+  }
+  .option3 {
+    background-image: url(img/option3-mobile.jpg);
+  }
 }/*# sourceMappingURL=style.css.map */
