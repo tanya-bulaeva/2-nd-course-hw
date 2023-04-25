@@ -3,10 +3,10 @@ let a = 20; // задание 1
 alert(a); 
 
 let relese = 2007; // задание 2
-alert (relese);
+alert  (`Год выпуска первого iphone ${relese}`);
 
 let creator = `Brendan Eich`; //задание 3
-alert (creator);
+alert (`${creator} создатель языка JavaScript`);
 
 let x = 10; //задание 4
 let y = 2;
