@@ -26,12 +26,18 @@ body{
 }
 
 .heading{
-    width: 750px;
-    font-style: normal;
     font-weight: 700;
-    font-size: 64px;
-    line-height: 78px;
+    font-size: 48px;
+    line-height: 59px;
     color: #FFFFFF;
+    &_big{
+        width: 750px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 78px;
+        color: #FFFFFF; 
+    }
     &_s {
         width: 481px;
         height: 64px;
@@ -60,11 +66,11 @@ body{
     height: 48px;
     background: #9C0332;
     border-radius: 30px;
+    font-family:  inherit;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
-    align-items: center;
     color: #FFFFFF;
     &:hover{
     background:#EB443F;
@@ -110,6 +116,29 @@ body{
         outline: 3px solid #44D2FF;
         transition: 1s;
     }
+}
+.game1{
+    background: #000915;
+    padding-top: 282px;
+    padding-bottom: 282px;
+
+}
+.season{
+    width: 584px;
+    padding-top: 31px;
+    padding-bottom: 34px;
+}
+.img{
+    width: 485px;
+    height: 333px;
+    position: relative;
+    left: 719px;
+    bottom: 285px;
+    &__block{
+    position: absolute;
+
+}
+    
 }
 @import 'mobile';
 

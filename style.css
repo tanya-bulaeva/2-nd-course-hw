@@ -30,6 +30,12 @@ body {
 }
 
 .heading {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 59px;
+  color: #FFFFFF;
+}
+.heading_big {
   width: 750px;
   font-style: normal;
   font-weight: 700;
@@ -66,11 +72,11 @@ body {
   height: 48px;
   background: #9C0332;
   border-radius: 30px;
+  font-family: inherit;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
-  align-items: center;
   color: #FFFFFF;
 }
 .button__go:hover {
@@ -120,6 +126,29 @@ body {
   transition: 1s;
 }
 
+.game1 {
+  background: #000915;
+  padding-top: 282px;
+  padding-bottom: 282px;
+}
+
+.season {
+  width: 584px;
+  padding-top: 31px;
+  padding-bottom: 34px;
+}
+
+.img {
+  width: 485px;
+  height: 333px;
+  position: relative;
+  left: 719px;
+  bottom: 285px;
+}
+.img__block {
+  position: absolute;
+}
+
 @media (max-width: 376px) {
   .center {
     padding-left: 16px;
@@ -137,7 +166,7 @@ body {
     align-items: center;
     width: 343px;
   }
-  .heading {
+  .heading_big {
     width: 343px;
     text-align: center;
     font-weight: 700;
@@ -169,5 +198,26 @@ body {
   }
   .option3 {
     background-image: url(img/option3-mobile.jpg);
+  }
+  .heading {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+  }
+  .game1 {
+    height: 603px;
+    text-align: center;
+    padding-top: 52px;
+    padding-bottom: 0;
+  }
+  .img {
+    width: 344px;
+    height: 236px;
+    left: 0;
+    bottom: 0;
+    top: 59px;
+  }
+  .img__block {
+    position: relative;
   }
 }/*# sourceMappingURL=style.css.map */

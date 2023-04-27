@@ -4,8 +4,8 @@
     padding-right: 16px;}
 
 .header{
-             height: 735px; 
-             background-image: url(img/headerback-mobile.jpg);
+    height: 735px; 
+    background-image: url(img/headerback-mobile.jpg);
     }
 .header__block{
     padding-top: 239px;
@@ -15,7 +15,7 @@
     align-items: center;
     width: 343px;
 }
-.heading{
+.heading_big{
     width: 343px;
     text-align: center;
     font-weight: 700;
@@ -51,6 +51,28 @@
         background-image: url(img/option3-mobile.jpg);
    
     }
+}
+.heading{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+}
+.game1{
+    height: 603px;
+    text-align: center;
+    padding-top: 52px;
+    padding-bottom: 0;
+
+}
+.img{
+    width: 344px;
+    height: 236px;
+    left:0;
+    bottom: 0;
+    top: 59px;
+}
+.img__block{
+    position: relative
 }
 }
 
