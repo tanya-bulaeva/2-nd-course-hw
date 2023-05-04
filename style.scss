@@ -121,6 +121,9 @@ body{
     background: #000915;
     padding-top: 282px;
     padding-bottom: 282px;
+    &__button{
+        padding-right: 13px;
+    }
 
 }
 .season{
@@ -136,9 +139,27 @@ body{
     bottom: 285px;
     &__block{
     position: absolute;
+}
+  
+}
 
+.game2{
+        background: #000915;
+        padding-top: 282px;
+        padding-bottom: 282px;
+        &__block{
+            padding-left: 612px;
+        }
+        &__button{
+            width: 240px;
+            margin-left: 5px;
+            padding-right: 18px;
+        }
+    }   
+.img2{
+    position: relative;
+    bottom: 278px;
 }
-    
-}
+
 @import 'mobile';
 

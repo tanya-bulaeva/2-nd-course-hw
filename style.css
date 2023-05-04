@@ -131,6 +131,9 @@ body {
   padding-top: 282px;
   padding-bottom: 282px;
 }
+.game1__button {
+  padding-right: 13px;
+}
 
 .season {
   width: 584px;
@@ -147,6 +150,25 @@ body {
 }
 .img__block {
   position: absolute;
+}
+
+.game2 {
+  background: #000915;
+  padding-top: 282px;
+  padding-bottom: 282px;
+}
+.game2__block {
+  padding-left: 612px;
+}
+.game2__button {
+  width: 240px;
+  margin-left: 5px;
+  padding-right: 18px;
+}
+
+.img2 {
+  position: relative;
+  bottom: 278px;
 }
 
 @media (max-width: 376px) {
@@ -219,5 +241,22 @@ body {
   }
   .img__block {
     position: relative;
+  }
+  .game2 {
+    padding-top: 49px;
+  }
+  .game2__block {
+    padding-left: 0;
+    text-align: center;
+  }
+  .game2__button {
+    margin-left: 0;
+  }
+  .img2 {
+    width: 344px;
+    height: 236px;
+    left: 0;
+    bottom: 0;
+    top: 59px;
   }
 }/*# sourceMappingURL=style.css.map */

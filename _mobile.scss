@@ -74,5 +74,22 @@
 .img__block{
     position: relative
 }
+.game2{
+    padding-top: 49px;
+    &__block{
+          padding-left: 0;
+    text-align: center;  
+    }
+    &__button{
+        margin-left: 0;
+    }
+}
+.img2{
+    width: 344px;
+    height: 236px;
+    left:0;
+    bottom: 0;
+    top: 59px;
+}
 }
 
