@@ -1,6 +1,6 @@
 function season () {
     let monthNumber = prompt ("Ведите номер месяца (от 1 до 12) и вы узнаете к какому времени года он относится");
-    if (monthNumber >= 12 || monthNumber <= 2){
+    if (monthNumber <= 12 || monthNumber <= 2){
         alert ( "Зима");
       } else if (monthNumber <= 5 && monthNumber >= 3) {
         alert ( "Весна");

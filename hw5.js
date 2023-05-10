@@ -102,7 +102,7 @@ console.log (circle2.getCirclePerimeter());
 //задание 8
 
 function season (n) {
-        if (n >= 12 || n <= 2){
+        if (n <= 12 || n <= 2){
         return ( "Зима");
       } else if (n <= 5 && n >= 3) {
         return ( "Весна");
