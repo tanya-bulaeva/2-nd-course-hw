@@ -12,34 +12,36 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="header center">
+       <header class="header center">
         <div class="header__block"><h1 class="heading_big">Добро пожаловать на мой сайт !</h1>
         <p class="heading_s">Вам предстоит пройти несколько увлекательных игр. Если готов нажимай <span class="bold">поехали</span> и <span class="bold"> приступай</span></p>
-    <button class="button__go" type="button">Поехали!</button>
+    <button class="button__go" type="button"  >Поехали!</button>
         </div>
     </header>
     <div class="choice center">
-        <div class="option option1">
-           <a href="#"><h3 class="heading_m"> Игра 1</h3></a>
+               <div class="option option1">
+           <a href="#season"><h3 class="heading_m"> Игра 1</h3></a>
         </div>
         <div class="option option2">
-            <a href="#"><h3 class="heading_m"> Игра 2</h3></a>
+            <a href="#remember"><h3 class="heading_m"> Игра 2</h3></a>
         </div>
         <div class="option option3">
             <a href="#"><h3 class="heading_m"> Игра 3</h3></a>
         </div>
     </div>
-    <div class="game1 center">
+        <div class="game1 center">
+        <a name = season></a>
         <div><h2 class="heading">Времена года</h2>
         <p class="heading_s season">Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы узнаете к какому времени года он относится</p>
-        <button class="button__go game1__button" type="button">Играть!</button></div>
+        <button class="button__go game1__button" type="button"onclick="season();" >Играть!</button></div>
         <div class="img__block"><img class="img" src="img/game1.png" alt="Игра Времена года"></div>
     </div>
     <div class="game2 center">
-               <div class="game2__block"><h2 class="heading">Запомни слова </h2>
+        <a name = remember></a><div class="game2__block"><h2 class="heading">Запомни слова </h2>
         <p class="heading_s season">При нажатии на кнопку играть, вы увидите несколько слов, которые вам необходимо запомнить.</p>
         <button class="button__go game2__button" type="button">Играть!</button></div>
         <div class="img__block"><img class="img2" src="img/game2.png" alt="Игра Запомни слова"></div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
