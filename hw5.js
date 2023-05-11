@@ -53,6 +53,20 @@ console.log(" Вы ввели неправильное значение");
 };
 welcomeMessage();
 
+//исправлено куратором:
+let age = prompt (`Сколько вам лет?`);
+const welcomeMessage = function () {
+
+    if (age < 0){
+       console.log(" Вы ввели неправильное значение");
+    } else if (age>=0 && age<=12){
+        console.log(" Привет, друг!");       
+    } else {
+        console.log("Добро пожаловать!")
+    }
+    }
+    welcomeMessage();
+
 //задание 5
 function numeric(a, b) {
     if (isNaN(a) || isNaN (b)) {
