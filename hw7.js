@@ -65,7 +65,7 @@ currentDate.setDate (currentDate.getDate()+73)
 console.log (currentDate);
 
 //задание 10
-function day(days, months, year) {
+function day() {
     const days = ["Воскресенье", "Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота"];
     const months = ["Январь", "Февраль", "Март", "Апрель", "Май", "Июнь",
     "Июль", "Август", "Сентябрь", "Октябрь", "Ноябрь", "Декабрь"];
