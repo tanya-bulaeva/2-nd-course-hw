@@ -1,4 +1,4 @@
-@media (max-width: 376px) {
+@media (max-width: 767px) {
     .center{
     padding-left: 16px;
     padding-right: 16px;}
@@ -13,7 +13,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 343px;
+    width: 100vw;
 }
 .heading_big{
     width: 343px;
@@ -23,7 +23,7 @@
     line-height: 39px;
 }
 .heading_s{
-    width: 343px;
+    width: 100vw;
     font-weight: 300;
     font-size: 14px;
     line-height: 22px;
@@ -37,7 +37,7 @@
 }
 
 .option{
-    width: 343px;
+    width: 100vw;
     padding-left: 15px;
             &1{
         background-image: url(img/option1-mobile.jpg);
@@ -76,6 +76,7 @@
 }
 .game2{
     padding-top: 49px;
+    text-align: center;
     &__block{
           padding-left: 0;
     text-align: center;  
@@ -93,3 +94,25 @@
 }
 }
 
+@media (max-width: 375px) {
+.header__block{
+    
+    flex-wrap: wrap;
+    align-content: flex-start;
+ 
+}
+    .heading_s{
+        width: 343px;
+    }
+    .option{
+        width: 343px;
+    }
+    .game2{
+        padding-bottom: 141px;
+        }
+        .choice{
+            padding-left: 14px;
+            padding-right: 14px;
+        }
+
+}

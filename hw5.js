@@ -54,18 +54,18 @@ console.log(" Вы ввели неправильное значение");
 welcomeMessage();
 
 //исправлено куратором:
-let age = prompt (`Сколько вам лет?`);
-const welcomeMessage = function () {
+let age1 = prompt (`Сколько вам лет?`);
+const welcomeMessage1 = function () {
 
-    if (age < 0){
+    if (age1 < 0){
        console.log(" Вы ввели неправильное значение");
-    } else if (age>=0 && age<=12){
+    } else if (age1>=0 && age1<=12){
         console.log(" Привет, друг!");       
     } else {
         console.log("Добро пожаловать!")
     }
     }
-    welcomeMessage();
+    welcomeMessage1();
 
 //задание 5
 function numeric(a, b) {
