@@ -145,8 +145,8 @@ body {
   width: 485px;
   height: 333px;
   position: relative;
-  left: 719px;
   bottom: 285px;
+  left: 719px;
 }
 .img__block {
   position: absolute;
@@ -156,6 +156,9 @@ body {
   background: #000915;
   padding-top: 282px;
   padding-bottom: 282px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 .game2__block {
   padding-left: 612px;
@@ -168,10 +171,10 @@ body {
 
 .img2 {
   position: relative;
-  bottom: 278px;
+  bottom: 46px;
 }
 
-@media (max-width: 376px) {
+@media (max-width: 767px) {
   .center {
     padding-left: 16px;
     padding-right: 16px;
@@ -186,7 +189,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 343px;
+    width: 100vw;
   }
   .heading_big {
     width: 343px;
@@ -196,7 +199,7 @@ body {
     line-height: 39px;
   }
   .heading_s {
-    width: 343px;
+    width: 100vw;
     font-weight: 300;
     font-size: 14px;
     line-height: 22px;
@@ -209,7 +212,7 @@ body {
     flex-wrap: wrap;
   }
   .option {
-    width: 343px;
+    width: 100vw;
     padding-left: 15px;
   }
   .option1 {
@@ -244,6 +247,7 @@ body {
   }
   .game2 {
     padding-top: 49px;
+    text-align: center;
   }
   .game2__block {
     padding-left: 0;
@@ -258,5 +262,24 @@ body {
     left: 0;
     bottom: 0;
     top: 59px;
+  }
+}
+@media (max-width: 375px) {
+  .header__block {
+    flex-wrap: wrap;
+    align-content: flex-start;
+  }
+  .heading_s {
+    width: 343px;
+  }
+  .option {
+    width: 343px;
+  }
+  .game2 {
+    padding-bottom: 141px;
+  }
+  .choice {
+    padding-left: 14px;
+    padding-right: 14px;
   }
 }/*# sourceMappingURL=style.css.map */

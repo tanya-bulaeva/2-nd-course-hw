@@ -124,8 +124,8 @@ body{
     &__button{
         padding-right: 13px;
     }
-
-}
+    
+   }
 .season{
     width: 584px;
     padding-top: 31px;
@@ -135,9 +135,9 @@ body{
     width: 485px;
     height: 333px;
     position: relative;
-    left: 719px;
     bottom: 285px;
-    &__block{
+    left: 719px;
+        &__block{
     position: absolute;
 }
   
@@ -147,6 +147,9 @@ body{
         background: #000915;
         padding-top: 282px;
         padding-bottom: 282px;
+        display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
         &__block{
             padding-left: 612px;
         }
@@ -158,7 +161,7 @@ body{
     }   
 .img2{
     position: relative;
-    bottom: 278px;
+    bottom: 46px;
 }
 
 @import 'mobile';
