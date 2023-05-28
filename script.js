@@ -17,7 +17,7 @@ function season () {
 function randomFruits() {
   let fruits = ['Яблоко' , 'Груша' , 'Дыня' , 'Виноград' , 'Персик' , 'Апельсин' , 'Мандарин'];
 fruits = fruits.sort(() => Math.random() - 0.5)
-alert (fruits);
+alert (fruits.join(', '));
 let userAnswer1 = prompt ("Какой было первое слово?");
 let userAnswer2 = prompt ("Какой было последнее слово?");
 if (userAnswer1.toLowerCase() === fruits[0].toLowerCase() && userAnswer2.toLowerCase() === fruits[6].toLowerCase()){
